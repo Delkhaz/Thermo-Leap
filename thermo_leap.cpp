@@ -72,7 +72,7 @@ void SampleListener::onFrame(const Controller& controller) {
 		//NEST system calls
 		std::string read_temp = "curl -L --silent https://developer-api.nest.com/devices/thermostats/%Device_id%/target_temperature_f\?auth\=%Access_key%";
 		
-        std::string set_temp = "curl -L -X PUT \"https://developer-api.nest.com/devices/thermostats/%Device_id%/target_temperature_f?auth=%Access_key\" -H \"Content-Type: application/json\" -d \"";
+		std::string set_temp = "curl -L -X PUT \"https://developer-api.nest.com/devices/thermostats/%Device_id%/target_temperature_f?auth=%Access_key\" -H \"Content-Type: application/json\" -d \"";
 		
 		std::string set_home = "curl -L -X PUT \"https://developer-api.nest.com/structures/%Structure_id%/away?auth=%Access_key%\" -H \"Content-Type: application/json\" -d '\"home\"'";
 		

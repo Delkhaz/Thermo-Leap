@@ -17,7 +17,10 @@ Thermo-Leap allows someone to control the Nest thermostat using the Leap Motion.
 </p>
 
 ## Getting Started
-You need to open thermo_leap.cpp and edit these 4 strings variables: 
+
+Connect the Leap Motion to your computer and download the drivers
+
+You then need to open thermo_leap.cpp and edit these 4 strings variables: 
 * read_temp
 * set_temp
 * set_home
@@ -26,6 +29,8 @@ You need to open thermo_leap.cpp and edit these 4 strings variables:
 When you see %Structure_id%, %Device_id%, or %Access_key% in the string names you need to replace it with your structure id, device id and access key. You can acquire these through the REST walkthrough [here](https://developers.nest.com/documentation/cloud/rest-quick-guide/)
 
 A makefile is provided to compile all the code (currently only works on Mac and Linux).
+
+Lastly, you should be able to run the thermo_leap executable. This executable will wait for commands from the Leap Motion.
 
 ## Demo
  
