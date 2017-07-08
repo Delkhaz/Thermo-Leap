@@ -1,6 +1,6 @@
 # Thermo-Leap
 
-//main picture
+<img width="416" alt="screen shot 2017-07-08 at 3 41 57 pm" src="https://user-images.githubusercontent.com/23054357/27988627-27844a6e-63f4-11e7-8f09-98e936df0ff4.png">
 
 
 ## What is it?
@@ -12,6 +12,7 @@ You need to open thermo_leap.cpp and edit these 4 strings variables:
 * set_temp
 * set_home
 * set_away
+
 When you see %Structure_id%, %Device_id%, or %Access_key% in the string names you need to replace it with your structure id, device id and access key. You can acquire these through the REST walkthrough [here](https://developers.nest.com/documentation/cloud/rest-quick-guide/)
 
 A makefile is provided to compile all the code (currently only works on Mac and Linux).
